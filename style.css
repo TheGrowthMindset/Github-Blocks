@@ -1,0 +1,38 @@
+#container{
+    margin: auto;
+    width:750px;
+    height:850px;
+    background-color: #eef1f8;
+    padding:10px;
+}
+#container>h1{
+    margin:10px 0px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250% ;
+}
+img{
+    height:200px;
+    padding: 15px 15px;
+}
+
+#row1{
+    display:flex;
+    background-color:#5ac6ed;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+#row2{
+    display:flex;
+    background-color:blanchedalmond;
+    justify-content:space-evenly;
+    margin-top:20px;
+}
+
+#row3{
+    display:flex;
+    background-color:#f5c9ad;
+    justify-content:space-between;
+    margin-top:20px;
+}
